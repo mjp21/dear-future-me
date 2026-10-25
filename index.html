@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171329">
+<title>Letters Through Time | MJP</title>
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+<div class="background" aria-hidden="true"></div><div class="background-shade" aria-hidden="true"></div>
+<main class="page">
+<header class="intro"><p class="eyebrow">A LITTLE TIME CAPSULE</p><h1>Letters Through <span>Time</span></h1><p class="intro-text">For the people I love, the sacrifices I remember, and the future I believe in.</p></header>
+<section class="letter-cards" aria-label="Choose a letter">
+<article class="person-card"><div class="photo-frame"><img src="mjp.jpg" alt="My photo" class="person-photo"></div><p class="card-kicker">A LETTER TO</p><h2>My Future Self</h2><p class="card-description">For the days I need to remember how far I have come.</p><button class="open-button" data-letter="self">Open My Letter <span>↗</span></button></article>
+<article class="person-card"><div class="photo-frame"><img src="naytay.jpeg" alt="My mama" class="person-photo"></div><p class="card-kicker">A LETTER TO</p><h2>Ma</h2><p class="card-description">For all your love, hard work, and sacrifices.</p><button class="open-button" data-letter="mama">Open Letter for Ma <span>↗</span></button></article>
+<article class="person-card"><div class="photo-frame"><img src="mama.jpeg" alt="My mother and father" class="person-photo"></div><p class="card-kicker">A LETTER TO</p><h2>Nay &amp; Tay</h2><p class="card-description">A thank-you letter to the two people I will never forget.</p><button class="open-button" data-letter="parents">Open Their Letter <span>↗</span></button></article>
+</section><p class="footer-note">Made with love, hope, and a promise to keep going ♡</p>
+</main>
+<div class="overlay" id="letterOverlay" aria-hidden="true"><article class="letter-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+<button id="closeLetter" class="close-button" type="button" aria-label="Close letter">×</button>
+<div class="modal-photo-wrap"><img id="modalPhoto" src="mjp.jpg" alt="" class="modal-photo"></div>
+<p id="modalKicker" class="letter-label">A LETTER THROUGH TIME</p><h2 id="modalTitle">HELLO SELF,</h2>
+<div id="letterContent" class="letter-content"></div><div class="signature" id="letterSignature"></div><p class="letter-bottom">KEEP GOING. KEEP BELIEVING. ♡</p>
+</article></div>
+</body></html>
